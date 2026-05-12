@@ -2,6 +2,11 @@
 
 This project contains a suite of Python scripts designed to test querying capabilities and data structuring paradigms across Firebase Realtime Database (RTDB) and Cloud Firestore. It serves as a proof-of-concept for an IoT backend system.
 
+1. **Download your Service Account Key from Firebase:**
+   * Go to your Firebase Console -> `Project Settings` -> `Service Accounts`.
+   * Click **Generate new private key** to download your specific `.json` credentials file.
+   * Move this downloaded file into the main folder of this project and rename it exactly to: `service_account.json`.
+
 ## Included Files
 * **`populate_db.py`**: A setup script that automatically seeds your Firebase project with the necessary mock data and anomalies required for the tests.
 * **`example_1.py`**: Demonstrates a targeted range query on a specific RTDB path (Viewer Lookup).
